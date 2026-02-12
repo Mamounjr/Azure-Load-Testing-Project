@@ -1,2 +1,2 @@
 # Azure-Load-Testing-Project
-The goal of this project is building and executing a cloud-based performance tests using Azure Load Testing, including test configuration, execution, and analysis of throughput, latency, and error metrics. 
+This project demostates how to design and execute performance tests using Azure Load Testing. It includes configuring a load test, running it against a sample web application analyzing performance metrics, and documenting findings. The goal is to showcase practical cloud engineering skills in performance testing, monitoring, and interpreting results using Azure services.
