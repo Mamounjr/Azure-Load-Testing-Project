@@ -1,8 +1,7 @@
 # Azure Load Testing Project
 
 ## Overview
-This project demonstrates how to design, execute, and analyze performance tests using **Azure Load Testing**. It includes configuring a load test, running it against a sample target endpoint provided by the Microsoft Learn quickstart, analyzing performance metrics, and documenting findings.  
-The goal is to showcase practical cloud engineering and cloud security skills through performance testing, monitoring, and secure access control.
+This project demonstrates how to design, execute, and analyze performance tests using Azure Load Testing. It includes configuring a URL‑based load test, running it against a public endpoint, analyzing performance metrics, and documenting the results. The goal is to showcase practical cloud engineering and cloud security skills through performance testing, monitoring, and secure access control.
 
 ---
 
