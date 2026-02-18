@@ -75,7 +75,7 @@ This screenshot shows that the baseline test completed successfully with no erro
 --- 
 
 ### 5. Failed test run (auto-stop triggered)
-![Failed test run](Screenshots/6-Failed Test.png)
+![Failed test run](Screenshots/6-Failed-Test.png)
 
 After modifying the test and adding an additional request, Azure automatically stopped the run due to repeated failures. Auto-stop helps prevent unnecessary resource usage and protects the target endpoint from excessive or invalid traffic.
 
