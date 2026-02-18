@@ -39,6 +39,61 @@ These values were selected to stay within student/free-tier limits while still g
 
 This section visually documents the key stages of the Azure Load Testing quickstart, from resource creation to test execution and analysis.
 
+### 1. Creating the Azure Load Testing resource
+![Creating Azure Load Testing resource](Screenshots/1-Creating-resource.png)
+
+This screenshot shows the process of creating the Azure Load Testing resource. It includes selecting the subscription, creating the resource group **my-load-testing-resource**, naming the instance, and choosing the East US region. Creating this resource is essential because it provides a centralized place to manage tests, view results, and store related artifacts.
+
+---
+
+### 2. Deployment completed
+![Deployment completed](Screenshots/2-Deployment-completed.png)
+
+This screenshot confirms that the Load Testing resource was successfully deployed. At this point, the environment is fully provisioned and ready for test creation and execution.
+
+---
+
+### 3. Creating a URL-based test (GET request)
+![Creating URL-based test](Screenshots/3-Creating-URL-based-test.png)
+
+Here, the URL-based test is configured with the following parameters:
+- **HTTP Method:** GET  
+- **Virtual Users:** 20  
+- **Duration:** 2 minutes  
+- **Ramp-up:** 1 minute  
+- **Target URL:** Public endpoint  
+
+This type of test requires no scripting and is configured entirely through the Azure Portal.
+
+---
+
+### 4. Baseline test run completed (successful)
+![Baseline test run completed](Screenshots/4-Test-Run-Completed.png)
+
+This screenshot shows that the baseline test completed successfully with no errors. Metrics such as response time, throughput, and virtual user activity indicate that the endpoint handled the simulated load as expected.
+
+---
+
+### 5. Failed test run (auto-stop triggered)
+![Failed test run](Screenshots/5-Failed-Test.png)
+
+After modifying the test and adding an additional request, Azure automatically stopped the run due to repeated failures. Auto-stop helps prevent unnecessary resource usage and protects the target endpoint from excessive or invalid traffic.
+
+---
+
+### 6. Failed test statistics
+![Failed test statistics](Screenshots/6-Failed-Test-Statistics.png)
+
+This screenshot highlights the error rate, throughput drop, and response time issues that occurred during the failed run. These metrics help identify misconfigurations or invalid endpoints introduced during the test modification.
+
+---
+
+### 7. Multiple HTTP requests (advanced settings)
+![Multiple HTTP requests](Screenshots/7-Different-HTTP-requests.png)
+
+This screenshot shows the advanced configuration where additional GET requests were added to the test. These changes led to the failure scenario, demonstrating how Azure Load Testing surfaces issues when multiple endpoints or request types are introduced.
+
+
 ---
 
 ## Baseline Test Results (Successful)
@@ -50,7 +105,7 @@ The initial test ran successfully with no errors.
 - Throughput was steady and predictable.  
 - No performance degradation or failures were observed.
 
-Screenshots are included in the `/screenshots` folder.
+Screenshots are included in the `/Screenshots` folder.
 
 ---
 
