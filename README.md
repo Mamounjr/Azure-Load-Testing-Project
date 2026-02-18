@@ -201,8 +201,9 @@ Load testing can resemble malicious traffic. Proper planning ensures performance
 After completing the project, I deleted the resource group to avoid unnecessary costs.
 
 ## Architecture Overview
+![Diagram](Screenshots/8-Azure-Load-Testing-Diagram.png)
 
-The diagram below illustrates the high-level architecture of this Azure Load Testing project.
+This diagram illustrates the high-level architecture of this Azure Load Testing project.
 
 
 
