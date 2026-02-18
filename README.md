@@ -54,7 +54,7 @@ This screenshot confirms that the Load Testing resource was successfully deploye
 ---
 
 ### 3. Creating a URL-based test (GET request)
-![Creating URL-based test](Screenshots/3-Creating-URL-based-test.png)
+![Creating URL-based test](Screenshots/3-Create-URL-based-test.png)
 
 Here, the URL-based test is configured with the following parameters:
 - **HTTP Method:** GET  
