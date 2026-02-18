@@ -72,17 +72,17 @@ This type of test requires no scripting and is configured entirely through the A
 
 This screenshot shows that the baseline test completed successfully with no errors. Metrics such as response time, throughput, and virtual user activity indicate that the endpoint handled the simulated load as expected.
 
----
+--- 
 
 ### 5. Failed test run (auto-stop triggered)
-![Failed test run](Screenshots/5-Failed-Test.png)
+![Failed test run](Screenshots/6-Failed Test.png)
 
 After modifying the test and adding an additional request, Azure automatically stopped the run due to repeated failures. Auto-stop helps prevent unnecessary resource usage and protects the target endpoint from excessive or invalid traffic.
 
 ---
 
 ### 6. Failed test statistics
-![Failed test statistics](Screenshots/6-Failed-Test-Statistics.png)
+![Failed test statistics](Screenshots/5-Failed-Test-Statistics.png)
 
 This screenshot highlights the error rate, throughput drop, and response time issues that occurred during the failed run. These metrics help identify misconfigurations or invalid endpoints introduced during the test modification.
 
